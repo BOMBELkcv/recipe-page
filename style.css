@@ -56,6 +56,12 @@ body {
   padding: 4rem 4rem 0 4rem;
 }
 
+.heading-primary,
+.heading-secondary,
+.heading-thirtiary {
+  font-weight: 500;
+}
+
 .recipe-img {
   width: 100%;
   margin-bottom: 4rem;
@@ -85,6 +91,7 @@ body {
   margin-bottom: 1.6rem;
   font-size: 2rem;
   font-weight: 600;
+  font-family: "Young Serif";
 }
 .list {
   display: flex;
@@ -105,10 +112,15 @@ body {
   font-size: 2.8rem;
   color: #854632;
   margin-bottom: 2.4rem;
+  font-family: "Young Serif";
 }
 
 .recipe-instructions {
   padding: 3.2rem 0;
+}
+
+.recipe-nutrition .heading-secondary {
+  margin-top: 3.2rem;
 }
 
 .numbered-list::marker {
